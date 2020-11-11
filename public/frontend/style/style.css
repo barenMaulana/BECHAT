@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body
+{
+    background-color: #9AECDB;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/* loading */
+.loading-ui
+{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute !important;
+    z-index: 100;
+    background-color: rgba(52, 73, 94,.9);
+}
+
+.loading-ui h1
+{
+    margin-top: 200px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+/* admin page */
+.container-utama
+{
+    min-height: 70vh;
+}
+
+/* profile page */
+.jumbotron-custom-profile
+{
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 220px;
+    background-image: url("../img/jumbotron_img.jpg") !important;
+    background-size: cover;
+}
+
+.img-profil-postingan
+{
+    height: 200px;
+}
+
+/* auth page */
+.custom-container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+/* beranda page */
+.user-identity
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-identity img
+{
+    margin-right: 5px;
+    max-height: 45px;
+    width: 45px;
+    border-radius: 50% !important;
+}
+
+.img-beranda
+{
+    max-height: 500px;
+}
+
+.footer-beranda-custom
+{
+    min-height: 200px;
+    border-top: 1px solid #acacacac;
+    margin-top: 30px;
+}
+
+.img-profile-beranda
+{
+    width: 3rem;
+}
+
+/* footer */
+footer .text-muted
+{
+    font-size: 17px;
+}
+
+@media(max-width : 600px)
+{
+    /* profile page */
+    .jumbotron-custom-profile
+    {
+        height: 120px;
+    }
+    .card-title
+    {
+        font-size: 13px !important;
+    }
+    .card-text
+    {
+        font-size: 10px !important;
+    }
+    .img-profile
+    {
+        height: 100px;
+        width: 100px;
+        margin: auto;
+        border-radius: 50%;
+    }
+    .card-profile-custom
+    {
+        border: none !important;
+        padding-top: 15px;
+        background-color:transparent;
+    }
+    .card-body a
+    {
+        font-size: 10px !important;
+    }
+    .right-side-postingan
+    {
+        margin-top: 20px;
+    }
+
+    /* beranda */
+    .img-beranda
+    {
+        height: auto;
+    }
+    .img-profile-beranda
+    {
+        width: 2rem;
+    }
+
+    /* footer */
+    footer .text-muted
+    {
+        font-size: 14px;
+    }
+    footer .col a
+    {
+        font-size: 13px;
+    }
+    footer  p
+    {
+        font-size: 12px !important;
+    }
+
+}
